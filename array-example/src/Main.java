@@ -3,21 +3,21 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int[] evenNumber = {0,12,4,16,8};//declared and initialized
+        int[] evenNumber = {0,12,4,16,8};                   //declared and initialized
 
-        int[] oddNumber = new int[3];//declared
+        int[] oddNumber = new int[3];                       //declared
 
-        oddNumber[0]=1;//init
-        oddNumber[1]=1;//init
-        oddNumber[2]=1;//init
+        oddNumber[0]=1;                                     //init
+        oddNumber[1]=1;                                     //init
+        oddNumber[2]=1;                                     //init
 
-        int[] firstFivePrimes = new int[]{2,3,5,7,11}; //declare and init
+        int[] firstFivePrimes = new int[]{2,3,5,7,11};      //declare and init
 
 
 
         System.out.println("3rd element of array is "+ evenNumber[2]);
 
-        evenNumber[4]=20;//{0,2,4,6,20};
+        evenNumber[4]=20;                                   //{0,2,4,6,20};
 
 
         Arrays.sort(evenNumber);
